@@ -1,16 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  font: inter;
 }
 body {
   font-family: SF Display;
 }
-header {
-  height: 100px;
-  background-color: red;
+nav {
+  width: 80%;
+  height: 42px;
+  margin-top: 21px;
+  text-decoration: none;
+}
+.logo {
+  width: 80px;
+  margin-right: 10px;
 }
 .hero {
-  background-image: url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0)),
+    url("https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg");
   background-size: 100%;
   height: 957.38px;
   padding: 100px;
@@ -20,4 +28,46 @@ header {
   margin-left: auto;
   display: flex;
   justify-content: center;
+  color: white;
+  margin-top: 121px;
+  gap: 50px;
+}
+.left {
+  height: 446.4px;
+  width: 446.4px;
+  background-size: 150%;
+  background-position: center;
+  border-radius: 24px;
+  transition: all 1s ease;
+}
+.left:hover {
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+.right {
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 669.6px;
+}
+.subtitle {
+  color: #0078f6;
+  opacity: 34.9%;
+  text-transform: uppercase;
+}
+.author img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.author {
+  font-size: 12px;
+  display: flex;
+  align-items: flex-start;
+  color: grey;
+}
+.on {
+  font-size: 11.8px;
 }
