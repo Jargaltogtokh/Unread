@@ -71,3 +71,21 @@ nav {
 .on {
   font-size: 11.8px;
 }
+.next {
+  text-transform: uppercase;
+  color: grey;
+}
+.next-next {
+  color: greys;
+}
+.button {
+  color: blue;
+}
+.tomorrow {
+  color: grey;
+}
+.head-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
