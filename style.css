@@ -184,3 +184,16 @@ nav {
   text-transform: uppercase;
   font-size: 12px;
 }
+.listed {
+  margin-top: 100px;
+  justify-content: space-between;
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.listed-news {
+  height: 236px;
+  width: 739px;
+  background-color: white;
+  color: blue;
+}
