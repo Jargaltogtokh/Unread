@@ -6,6 +6,9 @@
 body {
   font-family: SF Display;
 }
+main {
+  background-color: #fafafa;
+}
 nav {
   width: 80%;
   height: 42px;
@@ -141,7 +144,7 @@ nav {
   font-size: 18px;
 }
 .container {
-  margin-top: 50px;
+  margin-top: -190px;
   display: flex;
   justify-content: space-around;
   max-width: 1635px;
@@ -185,15 +188,100 @@ nav {
   font-size: 12px;
 }
 .listed {
-  margin-top: 100px;
+  margin-top: 50px;
   justify-content: space-between;
   width: 1160px;
   margin-left: auto;
   margin-right: auto;
 }
-.listed-news {
-  height: 236px;
+.listed-new {
+  margin-top: 10px;
+  height: 183px;
   width: 739px;
   background-color: white;
   color: blue;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-info {
+  display: flex;
+  justify-content: flex-start;
+}
+.cover {
+  height: 135px;
+  width: 135px;
+}
+.news-title {
+  color: black;
+  font-size: 24px;
+}
+.listed-right {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.author-info-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.info {
+  padding: 10px;
+}
+.Part-2 {
+  margin-top: 100px;
+}
+.item-1 {
+  grid-area: Box 1;
+}
+.item-2 {
+  grid-area: Box 2;
+}
+.item-3 {
+  grid-area: Box 3;
+}
+.item-4 {
+  grid-area: Box 4;
+}
+.item-5 {
+  grid-area: Box 5;
+}
+.item-6 {
+  grid-area: Box 6;
+}
+.item-7 {
+  grid-area: Box 7;
+}
+.item-8 {
+  grid-area: Box 8;
+}
+.item-9 {
+  grid-area: Box 9;
+}
+.item-10 {
+  grid-area: Box 10;
+}
+.item-11 {
+  grid-area: Box 11;
+}
+.item-12 {
+  grid-area: Box 12;
+}
+.item-13 {
+  grid-area: Box 13;
+}
+.item-14 {
+  grid-area: Box 14;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 12, 100px;
+  grid-template-columns: 10, 100px;
 }
