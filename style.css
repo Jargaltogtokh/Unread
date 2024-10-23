@@ -462,9 +462,15 @@ nav {
 }
 .backbone {
   height: 100px;
+  width: 560px;
   color: rgba (0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
   display: flex;
   align-items: flex-end;
   position: absolute;
+  margin-top: 250px;
+}
+.back-news {
+  color: white;
+  font-size: 10px;
 }
